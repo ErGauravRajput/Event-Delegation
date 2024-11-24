@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    color:#fff;
+    font:62.5%;
+    font-family:"Urbanist",sans-serif;
+}
+body{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1d;
+}
+#myList{
+    list-style:none;
+    padding:0;
+}
+#myList li{
+    padding:1rem;
+    border:1px solid #ccc;
+    margin:0.5rem;
+    cursor:pointer;
+    transition:transform 0.3s ease-in-out;
+    -webkit-transition:transform 0.3s ease-in-out;
+    -moz-transition:transform 0.3s ease-in-out;
+    -ms-transition:transform 0.3s ease-in-out;
+    -o-transition:transform 0.3s ease-in-out;
+}
+#myList li:hover{
+    transform:scale(1.1);;
+    background-color:#f0f0f0;
+    color:#333;
+}
+#listValue{
+    margin:2rem;
+    /* font-size:2rem; */
+    color:#f5ee62;
+}
+p,li{
+    font-size:1rem;
+    letter-spacing:0.1rem;
+    line-height:1.6;
+}
